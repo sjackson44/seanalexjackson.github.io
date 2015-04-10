@@ -9,6 +9,7 @@ main.App = Backbone.View.extend({
 	render: function(){
 		$("#nav-bar").html(this.mainTmp());
 
+
 		return this;
 	},
 })
