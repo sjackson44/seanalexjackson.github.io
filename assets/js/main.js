@@ -46,13 +46,8 @@ function detectmob() {
 
 if(window.detectmob()===true){
 	$('#circle').css("visibility", "hidden");
-	$('#mobile-welcome').("visibility", "visible");
+	$('#mobile-welcome').css("visibility", "visible");
 } 
-
-// else {
-// 		$('#circle').css("visibility", "visible");
-// 	$('#mobile-welcome').("visibility", "hidden");
-// }
 
 
 
