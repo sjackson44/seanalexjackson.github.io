@@ -81,10 +81,18 @@ body{
   width: 100%;
   z-index:2;
 }
-.about-page, .skills-page, .work-page, footer{
-  margin-top: 10px;
+.about-page, footer{
+  margin-top: -10px;
   text-align: center;
 }
+
+.attributes-page {
+  text-align: center;
+  margin-top:200px;
+  font-size: 160px;
+  color:white;
+}
+
 
 #nav-list.past-main {
   transition: all 2s;
