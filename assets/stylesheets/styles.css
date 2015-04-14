@@ -137,9 +137,9 @@ footer{
     font-size: 80px;
   }
   #circle{
-    height:190px;
-    width:190px;
-    margin-left: 320px;
+    height:240px;
+    width:240px;
+    margin-left: 180px;
   }
 
 }
@@ -153,9 +153,9 @@ footer{
     font-size: 100px;
   }
   #circle{
-    height:50px;
-    width:50px;
-    margin-left: 400px;
+    height:250px;
+    width:250px;
+    margin-left: 300px;
   }
 }
 
@@ -167,6 +167,11 @@ footer{
   .attributes-page {
     font-size: 130px;
   }
+  #circle{
+    height:300px;
+    width:300px;
+    margin-left: 380px;
+  }
 }
 
 /* Larger than Desktop HD */
@@ -176,6 +181,11 @@ footer{
   }
   .attributes-page {
     font-size: 160px;
+  }
+  #circle{
+    height:300px;
+    width:300px;
+    margin-left: 600px;
   }
 }
 
