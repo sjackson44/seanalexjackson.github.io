@@ -7,9 +7,7 @@ main.App = Backbone.View.extend({
 		this.render();
 	},
 	render: function(){
-		$("#nav-bar").html(this.mainTmp());
-
-
+		$("#container").html(this.mainTmp());
 		return this;
 	},
 })

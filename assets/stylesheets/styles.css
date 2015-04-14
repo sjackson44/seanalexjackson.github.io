@@ -1,19 +1,21 @@
-/*html { 
-  background: url(images/old_town.gif) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
-
-body {
-	margin: 0 auto;
+body{
+	margin: 0px;
+  padding: 0px; 
+  font-family: Antonio, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 44px;
 }
 
+/*COVER PAGE*/
 #cover {
   /* Set rules to fill background */
   min-height: 100%;
-  min-width: 1024px;
+  min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 	
   /* Set up proportionate scaling */
   width: 100%;
@@ -23,5 +25,84 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -10;
 }
+
+.branding, .nav-element{
+  margin-top: -10px;
+  color:#1DABB8;
+}
+
+.nav-element{
+  display: inline;
+  float:left;
+  position:relative;
+  padding-left:20px;
+}
+
+#nav-list{
+  background-color: transparent;
+  box-shadow: none;
+  margin-left:-10px;
+  margin-top: -250px;
+  padding-top:10px;
+  width: 110%;
+  position:fixed;
+  z-index:3;
+}
+
+
+#circle{
+  border: 1px solid #1DABB8;
+  margin: 250px 0px 0px 560px;
+  height: 300px;
+  width: 300px;
+  border-radius:100%;
+  background-color: #1DABB8;
+  position: relative;
+}
+
+#cover2{
+  margin-top:270px;
+  z-index: 2;
+  max-width: 100%;
+}
+
+ #title{
+  margin-bottom: 600px; 
+  z-index: 4;
+}
+
+/*ABOUT */
+#about, #skills, #work, footer{
+  background-color:white;
+  margin-top:260px;
+  height:600px;
+  width: 100%;
+  z-index:2;
+}
+.about-page, .skills-page, .work-page, footer{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#nav-list.past-main {
+  transition: all 2s;
+  background-color:rgba(255,255,255,1)
+}
+
+#skills{
+  margin-top: -10px;
+  background-color: #1DABB8;
+}
+
+#work{
+  margin-top:-10px;
+}
+
+footer{
+  margin-top: -50px;
+  height:500px;
+  background-color: #1DABB8;
+}
+

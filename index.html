@@ -3,17 +3,48 @@
 <head>
 	<title>Sean Jackson's Site</title>
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
 </head>
 <body>
 
 	<div id="container">
-		<div id="nav-bar">
-		</div>
+	
 	 
 	</div>
 	<script type="text/template" id="main-template">
-		
-		<img id="cover" src="./assets/images/old_town.gif">
+	<div id="main">
+		<nav id="nav-list">
+				<a href="#"><li class="nav-element">SJ</li></a>
+				<a href="#"><li class="nav-element">About</li></a>
+				<a href="#"><li class="nav-element">Skills</li></a>
+				<a href="#"><li class="nav-element">Work</li></a>
+				<a href="#"><li class="nav-element">Contact</li></a>
+				<a href="#"><li class="nav-element">Blog</li></a>
+		</nav>
+			<div id="circle"></div>
+			<img id="cover" class="responsive-img" src="assets/images/nycsubway.gif">
+		</div>
+		<div id="about">
+			<h2 class="about-page">About</h2>
+		</div>
+		<div class="parallax-container">
+    		  <div class="parallax"><img class="responsive-img" src="assets/images/code.png"></div>
+    	</div>
+		<div id="skills">
+			<h2 class="skills-page">Skills</h2>
+		</div>
+		<div class="parallax-container">
+    		  <div class="parallax"><img class="responsive-img" src="assets/images/code2.png"></div>
+    	</div>
+		<div id="work">
+			<h2 class="work-page">Work</h2>
+		</div>
+		<div class="parallax-container">
+    		  <div class="parallax"><img class="responsive-img" src="assets/images/brooklyn_bridge.jpg"></div>
+    	</div>
+		<footer>
+			<h2>Contact Me</h2>
+		</footer>
 	</script>
 <script src="assets/js/lib/jquery.js"></script>
 <script src="assets/js/lib/underscore.js"></script>
@@ -24,6 +55,10 @@
 <script src="assets/js/models/main.guest.js"></script>
 <script src="assets/js/collections/main.guests.js"></script>
 <script src="assets/js/views/main.app.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+       
 <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+<!-- // <img id="cover" src="./assets/images/old_town.gif"> -->
