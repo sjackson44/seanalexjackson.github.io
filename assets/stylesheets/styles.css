@@ -145,6 +145,20 @@ footer{
 
 }
 
+/*SKILL ICONS*/
+.devicon-git-plain, .devicon-backbonejs-plain {
+  max-height: 150px;
+  max-width: 150px;
+
+
+}
+
+ /*if you want to change the original color */
+.devicon-git-plain path {
+  fill: red;
+}
+
+/*MEDIA QUERIES*/
 /* Larger than tablet */
 @media (min-width: 750px) {
     .nav-element{
