@@ -119,7 +119,6 @@ footer{
 .devicon-css-original, .devicon-javascript-original, .devicon-jquery-original, .devicon-html5-original, .devicon-git-original, .devicon-ruby-original, .devicon-mysql-original,.devicon-postgresql-original, .devicon-rails-plain, .devicon-nodejs-original, .devicon-backbonejs-original, .devicon-postgresql-original {
   max-height: 150px;
   max-width: 150px;
-  display: inline-block;
 }
 
 .row{
@@ -170,7 +169,6 @@ footer{
     width:240px;
     margin-left: 180px;
   }
-
 }
 
 /* Larger than tablet */
@@ -186,6 +184,7 @@ footer{
     width:250px;
     margin-left: 300px;
   }
+
 }
 
 /* Larger than desktop */
