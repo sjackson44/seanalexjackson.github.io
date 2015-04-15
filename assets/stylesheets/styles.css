@@ -143,6 +143,14 @@ footer{
   fill: red;
 }
 
+#devicon-mobile-row1{
+  margin-left: 120px;
+}
+
+#devicon-mobile-row2{
+  margin-left: 150px;
+}
+
 /*MEDIA QUERIES*/
 @media (min-width: 400px) {
   .nav-element{
@@ -170,14 +178,6 @@ footer{
     height:240px;
     width:240px;
     margin-left: 180px;
-  }
-  .row1{
-   padding: 60px;
-   margin-left: 120px;
-  }
-
-  .row2{
-     margin-left: 150px;
   }
 }
 

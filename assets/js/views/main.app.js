@@ -26,10 +26,14 @@ main.App = Backbone.View.extend({
 		 || navigator.userAgent.match(/Windows Phone/i)
 		 ){
 		 	$('#circle').css("visibility", "hidden");
+		    $('.row1').attr("id","devicon-mobile-row1")
+        	$('.row2').attr("id","devicon-mobile-row2")
 		    return true;
 		 }
 		 else {
 		    return false;
+		    $('.row1').removeAttr("devicon-mobile-row1");
+        	$('.row2').removeAttr("devicon-mobile-row2");
 		}
 	},
 
