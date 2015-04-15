@@ -100,11 +100,6 @@ body{
   background-color:rgba(255,255,255,1)
 }
 
-#skills{
-  margin-top: -10px;
-  background-color: #1DABB8;
-}
-
 #work{
   margin-top:-10px;
 }
@@ -115,6 +110,39 @@ footer{
   background-color: #1DABB8;
 }
 
+#skills{
+  margin-top: -10px;
+  background-color: #1DABB8;
+}
+
+/*SKILL ICONS*/
+.devicon-css-original, .devicon-javascript-original, .devicon-jquery-original, .devicon-html5-original, .devicon-git-original, .devicon-ruby-original, .devicon-mysql-original,.devicon-postgresql-original, .devicon-rails-plain, .devicon-nodejs-original, .devicon-backbonejs-original, .devicon-postgresql-original {
+  max-height: 150px;
+  max-width: 150px;
+  display: inline-block;
+}
+
+.row{
+  display:block;
+  float: center;
+  margin: 0px 0px 0px 150px;
+  padding: 30px;
+}
+
+.row1{
+  padding: 60px;
+}
+
+.row2{
+  margin-left: 450px;
+}
+
+ /*if you want to change the original color */
+.devicon-git-plain path {
+  fill: red;
+}
+
+/*MEDIA QUERIES*/
 @media (min-width: 400px) {
   .nav-element{
     font-size: 20px
@@ -145,20 +173,6 @@ footer{
 
 }
 
-/*SKILL ICONS*/
-.devicon-git-plain, .devicon-backbonejs-plain {
-  max-height: 150px;
-  max-width: 150px;
-
-
-}
-
- /*if you want to change the original color */
-.devicon-git-plain path {
-  fill: red;
-}
-
-/*MEDIA QUERIES*/
 /* Larger than tablet */
 @media (min-width: 750px) {
     .nav-element{
