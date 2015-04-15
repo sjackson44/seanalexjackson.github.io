@@ -143,13 +143,13 @@ footer{
   fill: red;
 }
 
-#devicon-mobile-row1{
+/*#devicon-mobile-row1{
   margin-left: 90px;
 }
 
 #devicon-mobile-row2{
   margin-left: 120px;
-}
+}*/
 
 /*MEDIA QUERIES*/
 @media (min-width: 400px) {
