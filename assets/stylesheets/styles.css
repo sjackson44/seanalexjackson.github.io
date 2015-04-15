@@ -113,6 +113,7 @@ footer{
 #skills{
   margin-top: -10px;
   background-color: #1DABB8;
+  white-space: nowrap;
 }
 
 /*SKILL ICONS*/
