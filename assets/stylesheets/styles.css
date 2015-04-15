@@ -89,7 +89,7 @@ body{
 
 .attributes-page {
   text-align: center;
-  margin-top:200px;
+  margin-top:140px;
   font-size: 160px;
   color:white;
 }
@@ -117,7 +117,7 @@ footer{
 }
 
 /*SKILL ICONS*/
-.devicon-css-original, .devicon-javascript-original, .devicon-jquery-original, .devicon-html5-original, .devicon-git-original, .devicon-ruby-original, .devicon-mysql-original,.devicon-postgresql-original, .devicon-rails-plain, .devicon-nodejs-original, .devicon-backbonejs-original, .devicon-postgresql-original {
+.devicon-css-original, .devicon-jquery-original, .devicon-html5-original, .devicon-ruby-original,.devicon-postgresql-original, .devicon-rails-plain, .devicon-nodejs-original, .devicon-backbonejs-original, .devicon-postgresql-original {
   max-height: 150px;
   max-width: 150px;
 }
@@ -131,10 +131,11 @@ footer{
 
 .row1{
   padding: 60px;
+  margin-left: 320px;
 }
 
 .row2{
-  margin-left: 450px;
+  margin-left: 350px;
 }
 
  /*if you want to change the original color */
