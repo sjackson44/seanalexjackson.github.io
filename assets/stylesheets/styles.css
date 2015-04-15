@@ -171,6 +171,14 @@ footer{
     width:240px;
     margin-left: 180px;
   }
+  .row1{
+   padding: 60px;
+   margin-left: 220px;
+  }
+
+  .row2{
+     margin-left: 250px;
+  }
 }
 
 /* Larger than tablet */
