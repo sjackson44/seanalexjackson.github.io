@@ -159,11 +159,11 @@ footer{
     margin-left: 110px;
   }
   #devicon-mobile-row1{
-  margin-left: 10px;
+  margin-left: 90px;
 }
 
 #devicon-mobile-row2{
-  margin-left: 20px;
+  margin-left: 120px;
 }
 }
 
@@ -180,6 +180,13 @@ footer{
     width:240px;
     margin-left: 180px;
   }
+    #devicon-mobile-row1{
+  margin-left: 90px;
+}
+
+#devicon-mobile-row2{
+  margin-left: 120px;
+}
 }
 
 /* Larger than tablet */
