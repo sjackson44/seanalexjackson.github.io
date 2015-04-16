@@ -138,10 +138,18 @@ footer{
   margin-left: 390px;
 }
 
- /*if you want to change the original color */
-.devicon-git-plain path {
-  fill: red;
+/*CONTACT FORM -- See Skeleton Page*/
+
+/*FOLLOW ME ICONS*/
+.fa{
+  padding-right:20px;
 }
+
+.fa:hover{
+ 
+}
+
+
 
 
 
@@ -188,9 +196,6 @@ footer{
   margin-left: 120px;
 }
 }
-
-/*CONTACT FORM*/
-
 
 /* Larger than tablet */
 @media (min-width: 750px) {

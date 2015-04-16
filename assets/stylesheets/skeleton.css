@@ -254,18 +254,24 @@ input[type="email"]{
   height:50px;
 }
 
-label{
+label, p{
   font-size: 32px;
   color:black;
 }
 
 input[type="submit"]{
   font-size: 20px;
+  color:black ;
+  background-color:red;
 }
 
 form{
   float:left;
   margin:20px 0px 0px 50px;
+}
+
+#follow{
+  padding: 20px;
 }
 
 /* Removes awkward default styles on some inputs for iOS */
