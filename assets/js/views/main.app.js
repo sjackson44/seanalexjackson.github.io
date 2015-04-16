@@ -6,17 +6,23 @@ main.App = Backbone.View.extend({
 	initialize: function(){
 		this.render();
 		this.detect();
+		this.highlight();
+		this.load();
 	},
 
-	events: {
-		"window scroll" : "highlight"
-	},
 	render: function(){
 		$("#container").html(this.mainTmp());
 		return this;
 	},
 
+	load: function () {
+	  		$(document).ready(function(){
+      		$('.parallax').parallax();
+    	});
+	},
+
 	detect: function detectmob() { 
+		//detects what the browser environment is and responds accordingly.
 		 if( navigator.userAgent.match(/Android/i)
 		 || navigator.userAgent.match(/webOS/i)
 		 || navigator.userAgent.match(/iPhone/i)
@@ -36,5 +42,25 @@ main.App = Backbone.View.extend({
         	$('.row2').removeAttr("devicon-mobile-row2");
 		}
 	},
+
+	highlight: function() {
+			// get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable
+			var mainbottom = $('#main').offset().top + $('#main').height();
+
+
+			// on scroll, 
+			$(window).on('scroll',function(){
+
+		    // we round here to reduce a little workload
+		    stop = Math.round($(window).scrollTop());
+		    if (stop > mainbottom + 280) {
+		    	
+		        $('#nav-list').addClass('past-main');
+		    } else {
+		        $('#nav-list').removeClass('past-main');
+		   }
+
+		});
+	}
 
 })
