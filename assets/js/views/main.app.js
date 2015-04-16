@@ -16,6 +16,7 @@ main.App = Backbone.View.extend({
 	},
 
 	load: function () {
+		//enacts parallax
 	  		$(document).ready(function(){
       		$('.parallax').parallax();
     	});
