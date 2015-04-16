@@ -145,12 +145,14 @@ footer{
   padding-right:20px;
 }
 
-.fa:hover{
+a:hover{
+  fill: black;
  
 }
 
-
-
+span{
+  padding-bottom:100px;
+}
 
 
 /*MEDIA QUERIES*/

@@ -17,12 +17,12 @@
 	<script type="text/template" id="main-template">
 	<div id="main">
 		<nav id="nav-list">
-				<a href="#"><li class="nav-element">SJ</li></a>
-				<a href="#"><li class="nav-element">About</li></a>
-				<a href="#"><li class="nav-element">Skills</li></a>
-				<a href="#"><li class="nav-element">Work</li></a>
-				<a href="#"><li class="nav-element">Contact</li></a>
-				<a href="#"><li class="nav-element">Blog</li></a>
+				<a class="route_link" href="#main"><li class="nav-element">SJ</li></a>
+				<a class="route_link" href="#about"><li class="nav-element">About</li></a>
+				<a class="route_link" href="#skills"><li class="nav-element">Skills</li></a>
+				<a class="route_link" href="#work"><li class="nav-element">Work</li></a>
+				<a class="route_link" href="#contact"><li class="nav-element">Contact</li></a>
+				<a class="route_link" href="#"><li class="nav-element">Blog</li></a>
 		</nav>
 			<div id="circle"></div>
 			<img id="cover" class="responsive-img" src="assets/images/nycsubway.gif">
@@ -55,17 +55,20 @@
 			 <p class="attributes-page">Contact Me</p>
     		  <div class="parallax"><img class="responsive-img" src="assets/images/brooklyn_bridge.jpg"></div>
     	</div>
-		<footer>
+		<footer id="contact">
 			<form>
 				<label>Drop Me A Line</label>
-				<input type="email" name="email"><br>
-				<textarea rows="10" cols="50"></textarea><br>
+				<input type="email" name="email" placeholder="E-Mail"><br>
+				<textarea rows="10" cols="50" placeholder="Enter your message here."></textarea><br>
 				<input type="submit" value="Submit">
 			</form>
-			<p id="follow">Follow Me</p>
-			<i class="fa fa-github fa-5x"></i>
-			<i class="fa fa-twitter fa-5x"></i>
-			<i class="fa fa-linkedin fa-5x"></i>
+			<div id="social media">
+			<p id="follow">Follow Me!</p>
+				<a class="follow" href="https://github.com/sjackson44"><i class="fa fa-github fa-5x"></i></a>
+				<a class="follow twitter" href="https://twitter.com/sjackson44"><i class="fa fa-twitter fa-5x"></i></a>
+				<a class="follow" href="https://www.linkedin.com/in/seanalexjackson"><i class="fa fa-linkedin fa-5x"></i></a>
+				<p>Currently accepting full time, contract, and freelance offers</p>
+			</div>
 		</footer>
 	</script>
 <script src="assets/js/lib/jquery.js"></script>
