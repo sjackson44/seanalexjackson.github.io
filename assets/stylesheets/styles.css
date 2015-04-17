@@ -227,6 +227,9 @@ span{
 #devicon-mobile-row2{
   margin-left: 120px;
 }
+#personal-pic{
+  margin-left: 420px;
+}
 }
 
 @media (min-width: 550px) {
@@ -267,6 +270,9 @@ span{
     width:250px;
     margin-left: 300px;
   }
+  #personal-pic{
+  margin-left: 420px;
+}
 
 }
 
