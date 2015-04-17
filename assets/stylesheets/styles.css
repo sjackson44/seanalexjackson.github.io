@@ -294,7 +294,7 @@ span{
 }
 
 /* Larger than Desktop HD */
-/*@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .nav-element{
     font-size: 30px
   }
@@ -304,7 +304,7 @@ span{
   #circle{
     height:300px;
     width:300px;
-    margin-left: 600px;
+    margin-left: 620px;
   }
       #devicon-mobile-row1{
   margin-left: 260px;
@@ -324,5 +324,5 @@ span{
   #personal-pic{
   margin-left: 620px;
 }
-}*/
+}
 
