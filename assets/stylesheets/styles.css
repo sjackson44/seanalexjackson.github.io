@@ -221,11 +221,11 @@ span{
     margin-left: 110px;
   }
   #devicon-mobile-row1{
-  margin-left: 90px;
+  margin-left: 50px;
 }
 
 #devicon-mobile-row2{
-  margin-left: 120px;
+  margin-left: 140px;
 }
 #personal-pic{
   margin-left: 420px;
@@ -247,11 +247,11 @@ span{
     margin-left: 180px;
   }
     #devicon-mobile-row1{
-  margin-left: 90px;
+  margin-left: 60px;
 }
 
 #devicon-mobile-row2{
-  margin-left: 120px;
+  margin-left: 140px;
 }
 #personal-pic{
   margin-left: 420px;
@@ -299,7 +299,6 @@ span{
   .carousel ul{
   margin-left: 50px;
   padding-top:80px;
-  white-space: nowrap;
 }
 }
 
