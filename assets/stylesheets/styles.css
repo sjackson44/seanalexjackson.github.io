@@ -262,7 +262,7 @@ span{
 }
 
 /* Larger than tablet */
-@media (max-width: 750px) {
+@media (min-width: 750px) {
     .nav-element{
     font-size: 28px
   }
@@ -275,7 +275,7 @@ span{
     margin-left: 300px;
   }
   #personal-pic{
-  margin-left: 420px;
+  margin-left: 620px;
 }
   .carousel ul{
   margin-left: 10px;
@@ -285,7 +285,7 @@ span{
 }
 
 /*Larger than desktop*/ 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
     .nav-element{
     font-size: 30px
   }
@@ -301,6 +301,9 @@ span{
   .carousel ul{
   margin-left: 50px;
   padding-top:80px;
+}
+  #personal-pic{
+  margin-left: 620px;
 }
 }
 
@@ -324,6 +327,9 @@ span{
     .carousel ul{
   margin-left: 100px;
   padding-top:80px;
+}
+  #personal-pic{
+  margin-left: 620px;
 }
 }
 
