@@ -102,7 +102,9 @@ body{
   background: url(../images/portfolio-pic.jpg);
   border-radius: 100%;
   margin-left:620px;
+  margin-bottom: 25px;
   border: 1px solid #1DABB8;
+
 }
 
 .about-page, footer{
@@ -263,9 +265,36 @@ span{
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  .attribute-page{
+    font-size: 110px;
+    padding-top:100px;
+  }
   .carousel ul{
-  margin-left: 10px;
+  margin-left: 40px;
   padding-top:80px;
+}
+  #circle{
+    height:270px;
+    width:270px;
+    margin-left: 260px;
+  }
+  .proj-img{
+    height:250px;
+    width:250px;
+  }
+  .proj-img:hover{
+  transition: all 1s;
+  height: 280px;
+  width:280px;
+}
+  .row1{
+    margin-left: 27px;
+  }
+  .row2{
+    margin-left: 64px;
+  }
+#personal-pic{
+  margin-left: 290px;
 }
 
 }
@@ -277,6 +306,7 @@ span{
   }
   .attributes-page {
     font-size: 130px;
+    padding-top:90px;
   }
   #circle{
     height:300px;
@@ -285,11 +315,11 @@ span{
   }
  
   .carousel ul{
-  margin-left: 250px;
+  margin-left: 100px;
   padding-top:80px;
 }
   #personal-pic{
-  margin-left: 600px;
+  margin-left: 425px;
 }
 }
 
@@ -299,30 +329,66 @@ span{
     font-size: 30px
   }
   .attributes-page {
-    font-size: 160px;
+    font-size: 140px;
+    padding-top:75px;
   }
   #circle{
     height:300px;
     width:300px;
-    margin-left: 580px;
+    margin-left: 470px;
+    margin-bottom: 20px;
   }
-      #devicon-mobile-row1{
+  .row1{
   margin-left: 260px;
 }
 
-#devicon-mobile-row2{
-  margin-left: 30px;
+.row2{
+  margin-left: 290px;
 }
   .proj-img{
     height:300px;
     width:300px;
   }
     .carousel ul{
-  margin-left: 100px;
+  margin-left: 220px;
   padding-top:80px;
 }
   #personal-pic{
-  margin-left: 620px;
+  margin-left: 520px;
+}
+}
+
+@media (min-width: 1280px) {
+    .nav-element{
+    font-size: 30px
+  }
+  .attributes-page {
+    font-size: 140px;
+  padding-top: 80px;
+  }
+  #circle{
+    height:300px;
+    width:300px;
+    margin-left: 520px;
+    margin-bottom: 20px;
+  }
+  .row1{
+  margin-left: 275px;
+}
+
+.row2{
+  margin-left: 300px;
+}
+  .proj-img{
+    height:300px;
+    width:300px;
+  }
+    .carousel ul{
+  margin-left: 245px;
+  padding-top:80px;
+}
+  #personal-pic{
+  margin-left: 570px;
 }
 }
 
