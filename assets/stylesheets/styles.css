@@ -236,7 +236,7 @@ span{
 @media (min-width: 550px) {
 
   .nav-element{
-    font-size: 25px
+    font-size: 32px;
   }
   .attributes-page {
     font-size: 80px;
@@ -244,7 +244,7 @@ span{
   #circle{
     height:240px;
     width:240px;
-    margin-left: 180px;
+     margin-left: 600px;
   }
     #devicon-mobile-row1{
   margin-left: 60px;
@@ -254,7 +254,7 @@ span{
   margin-left: 140px;
 }
 #personal-pic{
-  margin-left: 420px;
+  margin-left: 620px;
 }
 
 }
