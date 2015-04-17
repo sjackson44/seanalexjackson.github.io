@@ -208,7 +208,7 @@ span{
 
 
 /*MEDIA QUERIES*/
-@media (min-width: 400px) {
+/*@media (max-width: 400px) {
   .nav-element{
     font-size: 20px
   }
@@ -225,7 +225,7 @@ span{
 }
 
 #devicon-mobile-row2{
-  margin-left: 140px;
+  margin-left: 90px;
 }
 #personal-pic{
   margin-left: 420px;
@@ -233,7 +233,7 @@ span{
 
 }
 
-@media (min-width: 550px) {
+@media (max-width: 550px) {
 
   .nav-element{
     font-size: 25px
@@ -323,5 +323,5 @@ span{
   margin-left: 100px;
   padding-top:80px;
 }
-}
+}*/
 
