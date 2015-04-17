@@ -160,7 +160,7 @@ p {
 a {
   color: black; }
 a:hover {
-  color: red; }
+  color: #c0392b; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -261,7 +261,7 @@ label, p{
 input[type="submit"]{
   font-size: 20px;
   color:black ;
-  background-color:red;
+  background-color:#c0392b;
 }
 
 form{

@@ -8,12 +8,12 @@ main.App = Backbone.View.extend({
 		this.detect();
 		this.highlight();
 		this.load();
+		this.smooth();
 	},
 
 	events: {
-		"click .route_link" : "smoove"
+		"click input[type=submit]" : "submit",
 	},
-
 	render: function(){
 		$("#container").html(this.mainTmp());
 		return this;
@@ -65,7 +65,7 @@ main.App = Backbone.View.extend({
 		});
 	},
 
-	smoove: function(){
+	smooth: function(){
 		$(function() {
   			$('a[href*=#]:not([href=#])').click(function() {
     				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -73,13 +73,29 @@ main.App = Backbone.View.extend({
       					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       				if (target.length) {
         				$('html,body').animate({
-          				scrollTop: target.offset().top - 400
+          				scrollTop: target.offset().top - 100
         			}, 1500);
         			return false;
       				}
     			}
   			});
 		});
-	}
+	},
 
+	create: function(){
+		var email = document.querySelector("input[type=email]").value;
+		var message = document.querySelector("textarea[name=message]").value;
+		var clean_email = email.replace(/[^a-zA-Z\d.@\_\-]+/g,'');
+		var clean_message = message.replace(/[^a-zA-Z\d.@\_\-]+/g,'');
+		this.collection.create({
+          email: clean_email,
+          message: clean_message
+      });
+		alert("Thanks for the message I'll get back to you soon.")
+	},
+
+	submit: function(e){
+		e.preventDefault();
+		this.create();
+	},
 })
