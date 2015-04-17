@@ -208,7 +208,7 @@ span{
 
 
 /*MEDIA QUERIES*/
-@media (max-width: 400px) {
+@media (min-width: 400px) {
   .nav-element{
     font-size: 20px
   }
@@ -233,7 +233,7 @@ span{
 
 }
 
-@media (max-width: 550px) {
+@media (min-width: 550px) {
 
   .nav-element{
     font-size: 25px
