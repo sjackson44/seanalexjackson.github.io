@@ -282,5 +282,46 @@ span{
 
 }
 
+/*Larger than desktop*/ 
+@media (max-width: 1000px) {
+    .nav-element{
+    font-size: 30px
+  }
+  .attributes-page {
+    font-size: 130px;
+  }
+  #circle{
+    height:300px;
+    width:300px;
+    margin-left: 380px;
+  }
+ 
+  .carousel ul{
+  margin-left: 50px;
+  padding-top:80px;
+}
+}
 
+/* Larger than Desktop HD */
+@media (max-width: 1200px) {
+    .nav-element{
+    font-size: 30px
+  }
+  .attributes-page {
+    font-size: 160px;
+  }
+  #circle{
+    height:300px;
+    width:300px;
+    margin-left: 600px;
+  }
+  .proj-img{
+    height:300px;
+    width:300px;
+  }
+    .carousel ul{
+  margin-left: 100px;
+  padding-top:80px;
+}
+}
 
