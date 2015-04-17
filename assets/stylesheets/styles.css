@@ -92,7 +92,7 @@ body{
 }
 
 #about{
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ body{
  width: 150px;  
   background: url(../images/portfolio-pic.jpg);
   border-radius: 100%;
-  margin-left:620px;
+  margin-left:600px;
   border: 1px solid #1DABB8;
 }
 
