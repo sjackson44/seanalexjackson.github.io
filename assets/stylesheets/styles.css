@@ -208,7 +208,7 @@ span{
 
 
 /*MEDIA QUERIES*/
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .nav-element{
     font-size: 20px
   }
@@ -230,13 +230,10 @@ span{
 #personal-pic{
   margin-left: 420px;
 }
-.proj-img {
-  height: 75px;
-  width: 75px;
-}
+
 }
 
-@media (min-width: 550px) {
+@media (max-width: 550px) {
 
   .nav-element{
     font-size: 25px
@@ -259,14 +256,11 @@ span{
 #personal-pic{
   margin-left: 420px;
 }
-.proj-img {
-  height: 75px;
-  width: 75px;
-}
+
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (max-width: 750px) {
     .nav-element{
     font-size: 28px
   }
@@ -281,15 +275,22 @@ span{
   #personal-pic{
   margin-left: 420px;
 }
-.proj-img {
-  height: 75px;
-  width: 75px;
+#projects {
+  background-color: red;
+}
+  .proj-img{
+    height:200px;
+    width:200px;
+  }
+  .carousel ul{
+  margin-left: 10px;
+  padding-top:80px;
 }
 
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
     .nav-element{
     font-size: 30px
   }
@@ -301,10 +302,19 @@ span{
     width:300px;
     margin-left: 380px;
   }
+  .proj-img{
+    height:250px;
+    width:250px;
+  }
+  .carousel ul{
+  margin-left: 50px;
+  padding-top:80px;
+  white-space: nowrap;
+}
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     .nav-element{
     font-size: 30px
   }
@@ -316,5 +326,13 @@ span{
     width:300px;
     margin-left: 600px;
   }
+  .proj-img{
+    height:300px;
+    width:300px;
+  }
+    .carousel ul{
+  margin-left: 100px;
+  padding-top:80px;
+}
 }
 
