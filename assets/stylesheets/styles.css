@@ -215,7 +215,11 @@ span{
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  #circle{
+    margin: 10% 0 0 35%;
+  }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {
