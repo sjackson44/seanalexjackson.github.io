@@ -99,12 +99,11 @@ body{
 #personal-pic{
  height: 5em;
  width: 5em;  
-  background: url(../images/portfolio-pic.jpg);
-  border-radius: 100%;
-  margin-left:45%;
-  margin-bottom: 2%;
-  border: 1px solid #1DABB8;
-
+ background: url(../images/portfolio-pic.jpg);
+ border-radius: 100%;
+ margin-left:45%;
+ margin-bottom: 2%;
+ border: 1px solid #1DABB8;
 }
 
 .about-page, footer{
@@ -164,11 +163,12 @@ footer{
 }
 
 /*PROJECTS*/
-.proj-img{
+.proj-img{  
   height:12em;
   width:12em;
   
 }
+
 
 .proj-header{
   padding-top:35px;
