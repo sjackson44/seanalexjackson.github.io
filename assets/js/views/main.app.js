@@ -55,12 +55,12 @@ main.App = Backbone.View.extend({
 			$(window).on('scroll',function(){
 
 		    // we round here to reduce a little workload
-		    stop = Math.round($(window).scrollTop());
-		    if (stop > mainbottom + 280) {
-		    	$('#nav-list').addClass('past-main');
-		    } else {
-		        $('#nav-list').removeClass('past-main');
-		   }
+		   //  stop = Math.round($(window).scrollTop());
+		   //  if (stop > mainbottom + 280) {
+		   //  	$('#nav-list').addClass('past-main');
+		   //  } else {
+		   //      $('#nav-list').removeClass('past-main');
+		   // }
 
 		});
 	},
