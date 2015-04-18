@@ -259,12 +259,12 @@ span{
   #circle{margin: 10% 0 0 40%;}
   .row1{
     padding-bottom:1%;
-    margin-left:17%;
+    margin-left:21%;
   }
+  .row2 {margin-left: 28%;}
   .attributes-page {
-    margin-top: 20%;
+    margin-top: 16%;
   }
-  .row2 {margin-left: 24%;}
   .carousel ul {margin-left: 18%;}
 }
 
