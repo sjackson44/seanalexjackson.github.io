@@ -36,7 +36,7 @@ main.App = Backbone.View.extend({
 		 || navigator.userAgent.match(/BlackBerry/i)
 		 || navigator.userAgent.match(/Windows Phone/i)
 		 ){
-		 	// $('#circle').css("visibility", "hidden");
+		 	$('#circle').css("visibility", "hidden");
 		    $('.row1').attr("id","devicon-mobile-row1");
         	$('.row2').attr("id","devicon-mobile-row2");
 		    return true;
