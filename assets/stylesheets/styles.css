@@ -257,8 +257,14 @@ span{
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   #circle{margin: 10% 0 0 40%;}
-  .row1{margin-left:25%;}
-  .row2 {margin-left: 27%;}
-  .carousel ul {margin-left: 18%;}
+  .row1{
+    padding-bottom:1%;
+    margin-left:17%;
+  }
+  .attributes-page {
+    margin-top: 20%;
+  }
+  .row2 {margin-left: 24%;}
+  .carousel ul {margin-left: 12%;}
 }
 
