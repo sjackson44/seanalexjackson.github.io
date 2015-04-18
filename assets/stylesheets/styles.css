@@ -92,7 +92,7 @@ body{
 }
 
 #about{
-  padding: 3em;
+  padding: 2em;
   text-align: center;
 }
 
@@ -210,185 +210,24 @@ span{
 
 
 /*MEDIA QUERIES*/
-/*@media (min-width: 400px) {
-  .nav-element{
-    font-size: 20px
-  }
-  .attributes-page {
-    font-size: 60px;
-  }
-    #circle{
-    height:190px;
-    width:190px;
-    margin-left: 110px;
-  }
-  #devicon-mobile-row1{
-  margin-left: 50px;
+/* Larger than mobile */
+@media (min-width: 400px) {
 }
 
-#devicon-mobile-row2{
-  margin-left: 90px;
-}
-#personal-pic{
-   text-align: center;
-  margin-left: 420px;
-}
-
-}*/
-/*
-@media (min-width: 550px) {
-
-  .nav-element{
-    font-size: 32px;
-  }
-  .attributes-page {
-    font-size: 80px;
-  }
-  #circle{
-    height:240px;
-    width:240px;
-     margin-left: 600px;
-  }
-    #devicon-mobile-row1{
-  margin-left: 60px;
-}
-
-#devicon-mobile-row2{
-  margin-left: 140px;
-}
-#personal-pic{
-  text-align: center;
-  margin-left: 420px;
-}
-
-}*/
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
-/*@media (min-width: 750px) {
-  .attribute-page{
-    font-size: 110px;
-    padding-top:100px;
-  }
-  .carousel ul{
-  margin-left: 40px;
-  padding-top:80px;
-}
-  #circle{
-    height:270px;
-    width:270px;
-    margin-left: 260px;
-  }
-  .proj-img{
-    height:250px;
-    width:250px;
-  }
-  .proj-img:hover{
-  transition: all 1s;
-  height: 280px;
-  width:280px;
-}
-  .row1{
-    margin-left: 27px;
-  }
-  .row2{
-    margin-left: 64px;
-  }
-#personal-pic{
-  margin-left: 290px;
-}
+@media (min-width: 750px) {}
 
-}*/
-
-/*Larger than desktop*/ 
-/*@media (min-width: 1000px) {
-    .nav-element{
-    font-size: 30px
-  }
-  .attributes-page {
-    font-size: 130px;
-    padding-top:90px;
-  }
-  #circle{
-    height:300px;
-    width:300px;
-    margin-left: 510px;
-  }
- 
-  .carousel ul{
-  margin-left: 100px;
-  padding-top:80px;
-}
-  #personal-pic{
-  margin-left: 425px;
-}
-}*/
+/* Larger than desktop */
+@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-/*@media (min-width: 1200px) {
-    .nav-element{
-    font-size: 30px
-  }
-  .attributes-page {
-    font-size: 140px;
-    padding-top:75px;
-  }
-  #circle{
-    height:300px;
-    width:300px;
-    margin-left: 470px;
-    margin-bottom: 20px;
-  }
-  .row1{
-  margin-left: 260px;
+@media (min-width: 1200px) {
+  #circle{margin: 10% 0 0 40%;}
+  .row1{margin-left:23%;}
+  .row2 {margin-left: 25%;}
+  .carousel ul {margin-left: 18%;}
 }
-
-.row2{
-  margin-left: 290px;
-}
-  .proj-img{
-    height:300px;
-    width:300px;
-  }
-    .carousel ul{
-  margin-left: 220px;
-  padding-top:80px;
-}
-  #personal-pic{
-  margin-left: 520px;
-}
-}*/
-
-/*@media (min-width: 1280px) {
-    .nav-element{
-    font-size: 30px
-  }
-  .attributes-page {
-    font-size: 140px;
-  padding-top: 80px;
-  }
-  #circle{
-    height:300px;
-    width:300px;
-    margin-left: 590px;
-    margin-bottom: 20px;
-  }
-  .row1{
-  margin-left: 355px;
-}
-
-.row2{
-  margin-left: 390px;
-}
-  .proj-img{
-    height:350px;
-    width:350px;
-  }
-    .carousel ul{
-  margin-left: 280px;
-  padding-top:80px;
-}
-  #personal-pic{
-  margin-left: 600px;
-}
-}*/
 
