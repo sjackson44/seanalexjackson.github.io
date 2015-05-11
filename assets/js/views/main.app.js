@@ -86,7 +86,7 @@ main.App = Backbone.View.extend({
 		var email = document.querySelector("input[type=email]").value;
 		var message = document.querySelector("textarea[name=message]").value;
 		var clean_email = email.replace(/[^a-zA-Z\d.@\_\-]+/g,'');
-		var clean_message = message.replace(/[^a-zA-Z\d.@\_\-]+/g,'');
+		var clean_message = message.replace(/[^a-zA-Z\d@\_\-]+/g,'');
 		this.collection.create({
           email: clean_email,
           message: clean_message
