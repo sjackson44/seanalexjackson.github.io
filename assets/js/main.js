@@ -18,7 +18,6 @@ $(document).ready(function() {
   $('#ab').click(function() {
   	if (counter === 1){
  			$('#resume').fadeOut();
-	  	decMargRes(Initwidth);
 	  	// $('#projects').fadeOut();
 	  	$('#about').show('slow');
 	  	counter = 0;
@@ -29,57 +28,14 @@ $(document).ready(function() {
   $('#res').click(function() {
   	if (counter === 0){
 	  	$('#about').fadeOut();
-	  	incMargRes(Initwidth);
 	  	// $('#projects').fadeOut();
 	  	$('#resume').show('slow');
 	  	counter = 1;
-      typeFix = false;
   	}
   });
 
-  $('#projects').click(function(e) {
-  	e.preventDefault();
-  	// $('#personal-info').fadeOut();
-  	$('#about').fadeIn('slow',function(){
-
-  	});
-
-
+  $('#projects').click(function() {
+  	// $('#about').fadeOut();
+  	$('#resume').fadeOut();
   });
-  
-  var lastWindowWidth = Initwidth;
-  $(window).resize(function(){
-    var currWidth = $(window).width();
-
-    if(typeFix === false && currWidth >= lastWindowWidth) {
-    
-      
-      $('#contact').css("margin-top", '-=10'); 
-      
-      lastWindowWidth = currWidth;     
-    } else if (typeFix === false && currWidth <= lastWindowWidth) {
-        
-      $('#contact').css("margin-top", '+=10'); 
-      
-      lastWindowWidth = currWidth; 
-    }
-  });
-
-  function incMargRes(width){
-    console.log(width)
-    if (width >= 355 && width <= 556){
-      $('#contact').css("margin-top", '+=550');
-    }else if (width >= 557){
-      $('#contact').css("margin-top", '+=600');
-    }
-  }
-
-    function decMargRes(width){
-    console.log(width)
-    if (width >= 355 && width <= 556){
-      $('#contact').css("margin-top", '-=550');
-    }else if (width >= 557){
-      $('#contact').css("margin-top", '-=600');
-    }
-  }
 });

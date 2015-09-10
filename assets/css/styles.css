@@ -71,18 +71,8 @@ a, .logo, #break{
 
 #desc, #resume, #contact{
 	position:absolute;
-	margin: 5% 10% 0% 10%;
+	margin: 1% 10% 0% 10%;
 	font-size: 1.4em
-}
-
-#contact{
-	position:absolute;
-	height: 50%;
-	width:100%;
-	background-color: red;
-	z-index:1;
-	margin-top:21%;
-	margin-left:0;
 }
 
 #resume-header
@@ -152,11 +142,12 @@ a, .logo, #break{
 	}
 
 	#resume-container{
-		margin-top:20%;
+		margin-top:15%;
 	}
 
 	#resume-header{
 		margin-left: 28%;
+		margin-top:10%;
 	}
 
 	#summary{
@@ -175,10 +166,6 @@ a, .logo, #break{
 	 border: 1px solid #ECECEC;
 	 z-index: 2002;
 	}
-
-	#contact{
-  	margin-top: 145%;
-  }
 }
 
 @media (max-width: 559px) and (min-width: 430px){
@@ -193,7 +180,8 @@ a, .logo, #break{
 	}
 
 	#resume-header{
-		margin-left: 28%;
+		margin-left: 24%;
+    margin-top: 3%;
 	}
 
 	#summary{
@@ -212,10 +200,6 @@ a, .logo, #break{
 	 border: 1px solid #ECECEC;
 	 z-index: 2002;
 	}
-
-	#contact{
-  	margin-top: 120%;
-  }
 }
 
 @media (max-width: 659px) and (min-width: 560px){
@@ -226,7 +210,12 @@ a, .logo, #break{
 	}
 
 	#resume-container{
-		margin-top:15%;
+		margin-top:9%;
+	}
+
+	#resume-header{
+		margin-left: 31%;
+		margin-top: 0%;
 	}
 	#summary{
 		margin-top: 195px;
@@ -239,15 +228,11 @@ a, .logo, #break{
 	 width: 10em;  
 	 background: url(../images/portfolio-pic.jpg);
 	 border-radius: 100%;
-	 margin-left:40%;
+	 margin-left:35%;
 	 margin-top: 0%;
 	 border: 1px solid #ECECEC;
 	 z-index: 2002;
 	}
-
-	#contact{
-  	margin-top: 84%;
-  }
 }
 
 @media (max-width: 760px) and (min-width: 660px){
@@ -255,6 +240,11 @@ a, .logo, #break{
 		font-size: 3.9em;
 		margin-top: 130px;
 		margin-left: 25%;
+	}
+
+	#resume-header{
+		margin-left: 39%;
+		margin-top: 0%
 	}
 
 	#summary{
@@ -268,16 +258,11 @@ a, .logo, #break{
 	 width: 10em;  
 	 background: url(../images/portfolio-pic.jpg);
 	 border-radius: 100%;
-	 margin-left:42%;
+	 margin-left:37%;
 	 margin-top: 0%;
 	 border: 1px solid #ECECEC;
 	 z-index: 2002;
 	}
-
-	#contact{
-  	margin-top: 58%;
-  }
-
 }
 
 @media (max-width: 860px) and (min-width: 759px){
@@ -292,10 +277,6 @@ a, .logo, #break{
 		margin-left:41%;
 		font-size: 1.05em;
 	}
-
-	#contact{
-  	margin-top: 47%;
-  }
 }
 
 @media (max-width: 1050px) and (min-width: 861px) {
@@ -307,20 +288,12 @@ a, .logo, #break{
   	font-size: 1.1em;
   	margin-top: 226px;
   }
-
-  #contact{
-  	margin-top: 38%;
-  }
 }
 
 @media (min-width: 1050px) and (max-width: 1309px) {
 
   #summary{
   	margin-left: 38%;
-  }
-
-  #contact{
-  	margin-top: 26%;
   }
 }
 
