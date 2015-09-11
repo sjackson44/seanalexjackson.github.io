@@ -134,7 +134,7 @@ a, .logo, #break{
 
 }
 
-@media (max-width: 429px) and (min-width: 380px){
+@media screen and (max-width: 429px) and (min-width: 380px){
 	#jumbo-name{
 		font-size: 2.9em;
 		margin-top: 150px;
@@ -168,7 +168,7 @@ a, .logo, #break{
 	}
 }
 
-@media (max-width: 559px) and (min-width: 430px){
+@media screen and (max-width: 559px) and (min-width: 430px){
 		#jumbo-name{
 		font-size: 2.9em;
 		margin-top: 175px;
@@ -202,7 +202,7 @@ a, .logo, #break{
 	}
 }
 
-@media (max-width: 659px) and (min-width: 560px){
+@media screen and (max-width: 659px) and (min-width: 560px){
 	#jumbo-name{
 		font-size: 3.9em;
 		margin-top: 120px;
@@ -235,7 +235,7 @@ a, .logo, #break{
 	}
 }
 
-@media (max-width: 760px) and (min-width: 660px){
+@media screen and (max-width: 760px) and (min-width: 660px){
 		#jumbo-name{
 		font-size: 3.9em;
 		margin-top: 130px;
@@ -265,7 +265,7 @@ a, .logo, #break{
 	}
 }
 
-@media (max-width: 860px) and (min-width: 759px){
+@media screen and (max-width: 860px) and (min-width: 759px){
 	#jumbo-name{
 		font-size: 4.3em;
 		margin-top: 130px;
@@ -279,7 +279,7 @@ a, .logo, #break{
 	}
 }
 
-@media (max-width: 1050px) and (min-width: 861px) {
+@media screen and (max-width: 1050px) and (min-width: 861px) {
   .logo{
     font-size: 4.3em;
   }
@@ -290,14 +290,14 @@ a, .logo, #break{
   }
 }
 
-@media (min-width: 1050px) and (max-width: 1309px) {
+@media screen and (min-width: 1050px) and (max-width: 1309px) {
 
   #summary{
   	margin-left: 38%;
   }
 }
 
-@media (min-width: 1310px) and (max-width: 1400px) {
+@media screen and (min-width: 1310px) and (max-width: 1400px) {
 
   #summary{
   	margin-left: 36.5%;
