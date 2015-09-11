@@ -1,280 +1,76 @@
-/*GENERAL*/
 *{
-	margin: 0 auto;
-	z-index: 0;
+	margin:0 auto;
 }
 
-a, .logo, #break{
+html { 
+  background: url(../images/endless-star.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p,a,li{
 	color:#ECECEC;
 }
 
-/*NAVBAR*/
-#nav{
-	position:fixed;
-	z-index: 5000;
-	background-color: none;
-}
-
-#nav li{
-	list-style-type: none;
-	display: inline;
-	padding-right: 5px;
-}
-
-#nav li a, #break{
-	text-decoration: none;
-	font-size:1.5em;
-}
-
-/*SECTIONS*/
-
-#personal-info{
-	height:100%;
-	width:100%;
-}
-
-#cover{
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 100%;
-  max-height: 100%;
-  max-width: 100%;
-  
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: 100%;
-  
-  /* Set up positioning */
-  z-index: -1;
-}
-
-/* .parallax-container {
-      height: 100%;
-    }
-*/
-
-.logo{
-	position:absolute;
-	margin: 140px 0px 0px 29%;
-	font-size: 5.3em;
+#screen{
+	margin:0%;
+	height: 600px;
+	width: 100%;
+	background-color: rgba(0,0,0, 0.6);
 	z-index: 2;
 }
 
-#summary{
-	font-size: 1.3em;
-	margin: 239px 0px 0px 36%;
-}
-
-/*ABOUT*/
-#port-pic{
- height: 10em;
- width: 10em;  
- background: url(../images/portfolio-pic.jpg);
- border-radius: 100%;
- margin-left:42%;
- margin-top: 1%;
- border: 1px solid #ECECEC;
- z-index: 2002;
-}
-
-#desc, #resume, #contact{
+#title{
+	font-size: 2.3em;
+	margin-left:1%;
+	margin-top: -47%;
 	position:absolute;
-	margin: 1% 10% 0% 10%;
-	font-size: 1.4em
 }
 
-
-/*MEDIA QUERIES*/
-@media screen and (max-width: 354px) {
-	#jumbo-name, #summary{
-		visibility: hidden
-	}
-	#port-pic{
-		margin-left:25%;
-	}
-
-	#contact{
-		visibility: hidden;
-	}
-}
-@media screen and (max-width: 379px) and (min-width: 355px){
-	#jumbo-name{
-		font-size: 2.9em;
-		margin-top: 186px;
-		margin-left: 12%;
-	}
-
-	#summary{
-		margin-top: 240px;
-		margin-left: 6%;
-		font-size: 1em;
-	}
-
-	#port-pic{
-	 height: 10em;
-	 width: 10em;  
-	 background: url(../images/portfolio-pic.jpg);
-	 border-radius: 100%;
-	 margin-left:26%;
-	 margin-top: 2%;
-	 border: 1px solid #ECECEC;
-	 z-index: 2002;
-	}
-
-	#contact{
-		margin-top:187%;
-		height: 40%;
-	}
-
+li{
+	display: inline;
+	list-style-type: none;
 }
 
-@media screen and (max-width: 429px) and (min-width: 380px){
-	#jumbo-name{
-		font-size: 2.9em;
-		margin-top: 150px;
-		margin-left: 16%;
-	}
-
-	#resume-container{
-		margin-top:15%;
-	}
-
-	#summary{
-		margin-top: 202px;
-		margin-left:12%;
-		font-size: 1em;
-	}
-
-	#port-pic{
-	 height: 10em;
-	 width: 10em;  
-	 background: url(../images/portfolio-pic.jpg);
-	 border-radius: 100%;
-	 margin-left:30%;
-	 margin-top: 0%;
-	 border: 1px solid #ECECEC;
-	 z-index: 2002;
-	}
+li a{
+	text-decoration: none;
+	font-size: 1.5em;
 }
 
-@media screen and (max-width: 559px) and (min-width: 430px){
-		#jumbo-name{
-		font-size: 2.9em;
-		margin-top: 175px;
-		margin-left: 16%;
-	}
-	
-	#resume-container{
-		margin-top:15%;
-	}
-
-	#summary{
-		margin-top: 225px;
-		margin-left:13%;
-		font-size: 1em;
-	}
-
-	#port-pic{
-	 height: 10em;
-	 width: 10em;  
-	 background: url(../images/portfolio-pic.jpg);
-	 border-radius: 100%;
-	 margin-left:30%;
-	 margin-top: 0%;
-	 border: 1px solid #ECECEC;
-	 z-index: 2002;
-	}
+#nav{
+	position:absolute;
+	margin-top:-43%;
+	margin-left:37%;
+	text-align: center;
 }
 
-@media screen and (max-width: 659px) and (min-width: 560px){
-	#jumbo-name{
-		font-size: 3.9em;
-		margin-top: 120px;
-		margin-left: 21%;
-	}
-
-	#resume-container{
-		margin-top:9%;
-	}
-
-	#summary{
-		margin-top: 195px;
-		margin-left:28%;
-		font-size: 1.05em;
-	}
-
-	#port-pic{
-	 height: 10em;
-	 width: 10em;  
-	 background: url(../images/portfolio-pic.jpg);
-	 border-radius: 100%;
-	 margin-left:35%;
-	 margin-top: 0%;
-	 border: 1px solid #ECECEC;
-	 z-index: 2002;
-	}
+#info-container{
+	background-color: black;
+	height:400px;
+	width:60%;
+	margin:-38% 20%;
+	opacity:0.8;
+	z-index: 3;
+	border-radius: 5%;
+	position:absolute;
 }
 
-@media screen and (max-width: 760px) and (min-width: 660px){
-		#jumbo-name{
-		font-size: 3.9em;
-		margin-top: 130px;
-		margin-left: 25%;
-	}
-
-	#summary{
-		margin-top: 197px;
-		margin-left:30%;
-		font-size: 1.05em;
-	}
-
-	#port-pic{
-	 height: 10em;
-	 width: 10em;  
-	 background: url(../images/portfolio-pic.jpg);
-	 border-radius: 100%;
-	 margin-left:37%;
-	 margin-top: 0%;
-	 border: 1px solid #ECECEC;
-	 z-index: 2002;
-	}
+.visible {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 3s linear;
+  -moz-transition: opacity 3s linear;
+  -o-transition: opacity 3s linear;
+  transition: opacity 3s linear;
 }
-
-@media screen and (max-width: 860px) and (min-width: 759px){
-	#jumbo-name{
-		font-size: 4.3em;
-		margin-top: 130px;
-		margin-left: 29%;
-	}
-
-	#summary{
-		margin-top: 210px;
-		margin-left:41%;
-		font-size: 1.05em;
-	}
-}
-
-@media screen and (max-width: 1050px) and (min-width: 861px) {
-  .logo{
-    font-size: 4.3em;
-  }
-
-  #summary{
-  	font-size: 1.1em;
-  	margin-top: 226px;
-  }
-}
-
-@media screen and (min-width: 1050px) and (max-width: 1309px) {
-
-  #summary{
-  	margin-left: 38%;
-  }
-}
-
-@media screen and (min-width: 1310px) and (max-width: 1400px) {
-
-  #summary{
-  	margin-left: 36.5%;
-  }
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+  -webkit-transition: visibility 0s 2s, opacity 2s linear;
+  -moz-transition: visibility 0s 2s, opacity 2s linear;
+  -o-transition: visibility 0s 2s, opacity 2s linear;
+  transition: visibility 0s 2s, opacity 2s linear;
 }
