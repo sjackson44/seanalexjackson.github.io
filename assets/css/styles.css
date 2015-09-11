@@ -28,7 +28,10 @@ a, .logo, #break{
 
 /*SECTIONS*/
 
-
+#personal-info{
+	height:100%;
+	width:100%;
+}
 
 #cover{
   /* Set rules to fill background */
@@ -80,13 +83,6 @@ a, .logo, #break{
 	font-size: 1.4em
 }
 
-#resume-header
-{
-	position: relative;
-	font-size: 1.5em;
-	margin-left: 43%;
-  margin-top: -5%;
-}
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 354px) {
@@ -95,10 +91,6 @@ a, .logo, #break{
 	}
 	#port-pic{
 		margin-left:25%;
-	}
-
-	#resume-header{
-		margin-left: 24%;
 	}
 
 	#contact{
@@ -112,9 +104,6 @@ a, .logo, #break{
 		margin-left: 12%;
 	}
 
-	#resume-header{
-		margin-left: 27%;
-	}
 	#summary{
 		margin-top: 240px;
 		margin-left: 6%;
@@ -150,11 +139,6 @@ a, .logo, #break{
 		margin-top:15%;
 	}
 
-	#resume-header{
-		margin-left: 28%;
-		margin-top:10%;
-	}
-
 	#summary{
 		margin-top: 202px;
 		margin-left:12%;
@@ -182,11 +166,6 @@ a, .logo, #break{
 	
 	#resume-container{
 		margin-top:15%;
-	}
-
-	#resume-header{
-		margin-left: 24%;
-    margin-top: 3%;
 	}
 
 	#summary{
@@ -218,10 +197,6 @@ a, .logo, #break{
 		margin-top:9%;
 	}
 
-	#resume-header{
-		margin-left: 31%;
-		margin-top: 0%;
-	}
 	#summary{
 		margin-top: 195px;
 		margin-left:28%;
@@ -245,11 +220,6 @@ a, .logo, #break{
 		font-size: 3.9em;
 		margin-top: 130px;
 		margin-left: 25%;
-	}
-
-	#resume-header{
-		margin-left: 39%;
-		margin-top: 0%
 	}
 
 	#summary{
