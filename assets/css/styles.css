@@ -132,3 +132,22 @@ li a{
   -o-transition: visibility 0s 2s, opacity 2s linear;
   transition: visibility 0s 2s, opacity 2s linear;
 }
+
+.visible-plus{
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.hidden-plus{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+  -webkit-transition: visibility 0s 0.5s, opacity 0.5s linear;
+  -moz-transition: visibility 0s 0.5s, opacity 0.5s linear;
+  -o-transition: visibility 0s 0.5s, opacity 0.5s linear;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}

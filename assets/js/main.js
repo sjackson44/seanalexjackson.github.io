@@ -31,10 +31,10 @@ $(document).ready(function() {
     $('#' + id).click(function() {
       for(var rem in linkObj) {
         if (rem !== id) {
-          $('#' + linkObj[rem]).removeClass('visible').addClass('hidden');
+          $('#' + linkObj[rem]).removeClass('visible-plus').addClass('hidden-plus');
         }
       }
-      $('#' + linkObj[id]).removeClass('hidden').addClass('visible');  
+      $('#' + linkObj[id]).removeClass('hidden-plus').addClass('visible-plus');  
     });//ends click
   });//ends hover
 
