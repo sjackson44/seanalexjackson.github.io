@@ -11,7 +11,7 @@ $(document).ready(function() {
   };
 
   $('.screen').hover(function(){
-    if(trace=== true) {
+    if(trace === true) {
       $('#instruct').removeClass('hidden-plus').addClass('visible-plus'); 
       trace = false;
     }

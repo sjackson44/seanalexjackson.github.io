@@ -11,7 +11,7 @@ p,a,li{
 
 }
 
-#instruct, #title, #nav, #info-container, #projects {
+#instruct, #title, #nav, #info-container, #projects, #contact {
 	position: absolute;
 }
 
@@ -150,6 +150,21 @@ li a{
 
 #blk_mkt p a:hover, #wake_up p a:hover{
 	color:goldenrod;
+}
+
+/*CONTACT*/
+
+#contact {
+	margin: -42% 0% 0% 36%;
+	font-size: 2em
+}
+
+#contact a:hover{
+	color:goldenrod;
+}
+
+#contact a {
+	margin-right: 11%;
 }
 
 /*HIDDEN AND VISIBILITY CLASSES*/
