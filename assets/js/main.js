@@ -21,13 +21,16 @@ $(document).ready(function() {
     if (ret === 0) {
       $('#title').fadeOut();
       $('#nav').removeClass('hidden').addClass('visible').fadeIn();
-      $('#info-container').removeClass('hidden').addClass('visible').fadeIn('slow');
+      $('#info-sec').removeClass('hidden').addClass('visible').fadeIn('slow');
       $('#instruct').removeClass('visible-plus').addClass('hidden-plus');
       ret = 1;
     } else if (ret === 1) {
+      for(var rem in linkObj) {
+        $('#' + linkObj[rem]).removeClass('visible-plus').addClass('hidden-plus');
+      }
       $('#title').fadeIn();
         $('#nav').removeClass('visible').addClass('hidden').fadeOut();
-        $('#info-container').removeClass('visible').addClass('hidden').fadeOut();
+        $('#info-sec').removeClass('visible').addClass('hidden').fadeOut();
       ret = 0;
     }
   });
@@ -42,7 +45,7 @@ $(document).ready(function() {
           $('#' + linkObj[rem]).removeClass('visible-plus').addClass('hidden-plus');
         }
       }
-      $('#' + linkObj[id]).removeClass('hidden-plus').addClass('visible-plus');  
+    $('#' + linkObj[id]).removeClass('hidden-plus').addClass('visible-plus');  
     });//ends click
   });//ends hover
 });

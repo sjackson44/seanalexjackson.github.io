@@ -2,6 +2,167 @@
 *{
 	margin:0 auto;
 }
+p,a,li{
+	color:rgba(236,236,236, 1);
+}
+
+#title, #instruct, #title, #nav, #projects, #contact,  {
+	position: relative;
+}
+
+#instruct, .info-sec {
+	position: absolute;
+}
+
+#nav{ 
+	margin-left: auto;
+	margin-right: auto;
+}
+/*MAIN SCREEN*/
+
+body { 
+  background: url(../images/tree-star.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#screen{
+	height: 630px;
+	width: 100%;
+	z-index: 2;
+}
+
+#instruct{
+	height: 100px;
+	width: 600px;
+	margin:15% 0% 0% 27%;
+	background-color: rgba(0,0,0,0.7);
+	border-top-right-radius: 3% 16%;
+	border-top-left-radius: 3% 16%;
+	border-bottom-right-radius: 3% 16%;
+	border-bottom-left-radius: 3% 16%;
+}
+
+#instruct p {
+	font-size: 1.4em;
+	margin: 2.5% 0% 0% 0%;
+	text-align: center;
+}
+
+#title{
+	font-size: 2.3em;
+	margin-left:1%;
+	margin-top: -630px;
+}
+
+
+/*LINKS NAVS AND BUTTONS*/
+li{
+	display: inline;
+	list-style-type: none;
+}
+
+li a{
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.button{
+  border-color: #ececec;
+  color: #ececec;
+}
+
+.button:hover{
+	border-color: goldenrod;
+	color: #ececec;
+}
+
+.button:visited{
+	color:goldenrod;
+}
+
+#nav{
+	margin-top:-39%;
+	text-align: center;
+}
+
+
+/*INFO CONTAINER*/
+.info-sec {
+	background-color: rgba(0,0,0,.7);
+  padding: 40px;
+  border-radius: 20px;
+/*    border-top-right-radius: 10% 20%;
+	border-top-left-radius: 10% 20%;
+	border-bottom-right-radius: 10% 20%;
+	border-bottom-left-radius: 10% 20%;*/
+	min-width: 70%;
+	/*width:100%;*/
+	margin-right: 10%;
+	margin-left: 10%;
+	/*left: 10%;*/
+}
+
+/*ABOUT*/
+#port-pic{
+	height: 10em;
+	width: 10em;
+	background-image: url(../images/portfolio-pic.jpg);
+	opacity: 1;
+	border-radius: 100%;
+}
+
+
+#desc, #resume{
+	color: rgba(236, 236, 236, 1);
+}
+
+#desc{
+  	font-size: 1.2em;
+}
+
+#about {
+	
+}
+
+/*RESUME*/
+.company{
+
+}
+
+#skills{
+
+}
+
+/*PROJECTS*/
+
+#projects{
+
+}
+
+#blk_mkt, #wake_up {
+	text-align: center;
+}
+
+#blk_mkt p a:hover, #wake_up p a:hover{
+	color:goldenrod;
+}
+
+/*CONTACT*/
+
+#contact {
+	font-size: 2em
+}
+
+#contact a:hover{
+	color:goldenrod;
+}
+
+#contact a {
+	margin-right: 11%;
+}
 
 /*HIDDEN AND VISIBILITY CLASSES*/
 
@@ -43,180 +204,10 @@
   transition: visibility 0s 0.5s, opacity 0.5s linear;
 }
 
-
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-
-  p,a,li{
-		color:rgba(236,236,236, 1);
-	}
-
-	#title, #instruct, #title, #nav, #projects, #contact {
-		position: relative;
-	}
-
-	#info-container, #instruct {
-		position: absolute;
-	}
-
-	/*MAIN SCREEN*/
-
-	body { 
-	  background: url(../images/tree-star.gif) no-repeat center center fixed; 
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	}
-
-	#screen{
-		height: 630px;
-		width: 100%;
-		z-index: 2;
-	}
-
-	#instruct{
-		height: 100px;
-		width: 600px;
-		margin:15% 0% 0% 27%;
-		background-color: rgba(0,0,0,0.7);
-		border-top-right-radius: 3% 16%;
-		border-top-left-radius: 3% 16%;
-		border-bottom-right-radius: 3% 16%;
-		border-bottom-left-radius: 3% 16%;
-	}
-
-	#instruct p {
-		font-size: 1.4em;
-		margin: 2.5% 0% 0% 0%;
-		text-align: center;
-	}
-
-	#title{
-		font-size: 2.3em;
-		margin-left:1%;
-		margin-top: -630px;
-	}
-
-
-	/*LINKS NAVS AND BUTTONS*/
-	li{
-		display: inline;
-		list-style-type: none;
-	}
-
-	li a{
-		text-decoration: none;
-		font-size: 1.5em;
-	}
-
-	.button{
-	  border-color: #ececec;
-	  color: #ececec;
-	}
-
-	.button:hover{
-		border-color: goldenrod;
-		color: #ececec;
-	}
-
-	.button:visited{
-		color:goldenrod;
-	}
-
-	#nav{
-		margin-top:-39%;
-		margin-left:30%;
-		text-align: center;
-	}
-
-
-	/*INFO CONTAINER*/
-	#info-container{
-		background-color: black;
-		height:400px;
-		width:60%;
-		margin:-35% 20%;
-		opacity:0.7;
-		z-index: 3;
-		border-top-right-radius: 10% 20%;
-		border-top-left-radius: 10% 20%;
-		border-bottom-right-radius: 10% 20%;
-		border-bottom-left-radius: 10% 20%;
-	}
-
-	/*ABOUT*/
-	#port-pic{
-		height: 10em;
-		width: 10em;
-		background-image: url(../images/portfolio-pic.jpg);
-		opacity: 1;
-		border-radius: 100%;
-		margin: 2% 0% -7% 39%;
-	}
-
-
-	#desc, #resume{
-		color: rgba(236, 236, 236, 1);
-	}
-
-	#desc{
-		margin: 7% 4% 0% 5%;
-	  	font-size: 1.2em;
-	}
-
-	#about {
-		text-align: center;
-	}
-
-	/*RESUME*/
-	#resume{
-		margin: -40% 10% 0% 17%;
-	}
-
-	.company{
-		margin-bottom: 2%;
-	}
-
-	#skills{
-		margin-top: 1%;
-	}
-
-	/*PROJECTS*/
-
-	#projects{
-		margin: -39% 0% 0% 9%;
-	}
-
-	#blk_mkt, #wake_up {
-		text-align: center;
-	}
-
-	#blk_mkt p a:hover, #wake_up p a:hover{
-		color:goldenrod;
-	}
-
-	/*CONTACT*/
-
-	#contact {
-		margin: -42% 0% 0% 36%;
-		font-size: 2em
-	}
-
-	#contact a:hover{
-		color:goldenrod;
-	}
-
-	#contact a {
-		margin-right: 11%;
-	}
+@media (max-width: 610px){
+	
 }
 
-/* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+@media (max-width: 400px){
+
 }
