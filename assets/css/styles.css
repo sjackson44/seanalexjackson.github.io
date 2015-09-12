@@ -2,8 +2,14 @@
 	margin:0 auto;
 }
 
-html { 
-  background: url(../images/endless-star.gif) no-repeat center center fixed; 
+/*html{
+  -webkit-filter: blur(0.2px) grayscale(0.1) brightness(0.8);
+  -webkit-transform-origin: top left;
+  -webkit-transform: scale(1);
+}
+*/
+body { 
+  background: url(../images/tree-star.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,14 +17,12 @@ html {
 }
 
 p,a,li{
-	color:#ECECEC;
+	color:rgba(236,236,236, 1);
 }
 
 #screen{
-	margin:0%;
-	height: 600px;
+	height: 620px;
 	width: 100%;
-	background-color: rgba(0,0,0, 0.6);
 	z-index: 2;
 }
 
@@ -42,7 +46,7 @@ li a{
 #nav{
 	position:absolute;
 	margin-top:-43%;
-	margin-left:37%;
+	margin-left:30%;
 	text-align: center;
 }
 
@@ -51,20 +55,74 @@ li a{
 	height:400px;
 	width:60%;
 	margin:-38% 20%;
-	opacity:0.8;
+	opacity:0.7;
 	z-index: 3;
-	border-radius: 5%;
+	border-top-right-radius: 10% 20%;
+	border-top-left-radius: 10% 20%;
+	border-bottom-right-radius: 10% 20%;
+	border-bottom-left-radius: 10% 20%;
 	position:absolute;
 }
 
+
+#port-pic{
+	height: 10em;
+	width: 10em;
+	background-image: url(../images/portfolio-pic.jpg);
+	opacity: 1;
+	border-radius: 100%;
+	margin: 2% 0% -7% 39%;
+}
+
+
+#desc, #resume{
+	color: rgba(236, 236, 236, 1);
+}
+
+#desc{
+	margin: 7% 4% 0% 5%;
+  	font-size: 1.2em;
+}
+
+#about {
+
+	text-align: center;
+}
+
+#resume{
+	margin: -40% 10% 0% 17%;
+}
+
+#skills{
+	margin-top: -9%;
+}
+
+.company{
+	margin-bottom: 2%;
+}
+
+#skills{
+	margin-top: 1%;
+}
+
+.button{
+  border-color: #ececec;
+  color: #ececec;
+}
+
+.button:hover{
+	border-color: goldenrod;
+	color: #ececec;
+}
 .visible {
   visibility: visible;
   opacity: 1;
-  -webkit-transition: opacity 3s linear;
-  -moz-transition: opacity 3s linear;
-  -o-transition: opacity 3s linear;
-  transition: opacity 3s linear;
+  -webkit-transition: opacity 2s linear;
+  -moz-transition: opacity 2s linear;
+  -o-transition: opacity 2s linear;
+  transition: opacity 2s linear;
 }
+
 .hidden {
   visibility: hidden;
   opacity: 0;
