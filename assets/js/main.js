@@ -10,13 +10,16 @@ $(document).ready(function() {
     con: 'contact'
   };
 
+    alert('Click Anywhere to begin.');
+
+
   $('#screen').click(function() {
     if (ret === 0) {
       $('#title').fadeOut();
       $('#nav').removeClass('hidden').addClass('visible').fadeIn();
       $('#info-container').removeClass('hidden').addClass('visible').fadeIn('slow');
-      ret = 5;
-    } else if (ret === 5) {
+      ret = 1;
+    } else if (ret === 1) {
       $('#title').fadeIn();
         $('#nav').removeClass('visible').addClass('hidden').fadeOut();
         $('#info-container').removeClass('visible').addClass('hidden').fadeOut();
