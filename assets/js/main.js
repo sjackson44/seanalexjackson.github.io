@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var ret = 0;
-  var trace;
+  var trace = true;
   var id;
   var arr = [];
   var linkObj = {
@@ -10,14 +10,19 @@ $(document).ready(function() {
     con: 'contact'
   };
 
-    alert('Click Anywhere to begin.');
+  $('.screen').hover(function(){
+    if(trace=== true) {
+      $('#instruct').removeClass('hidden-plus').addClass('visible-plus'); 
+      trace = false;
+    }
+  });
 
-
-  $('#screen').click(function() {
+  $('.screen').click(function() {
     if (ret === 0) {
       $('#title').fadeOut();
       $('#nav').removeClass('hidden').addClass('visible').fadeIn();
       $('#info-container').removeClass('hidden').addClass('visible').fadeIn('slow');
+      $('#instruct').removeClass('visible-plus').addClass('hidden-plus');
       ret = 1;
     } else if (ret === 1) {
       $('#title').fadeIn();
@@ -40,5 +45,4 @@ $(document).ready(function() {
       $('#' + linkObj[id]).removeClass('hidden-plus').addClass('visible-plus');  
     });//ends click
   });//ends hover
-
 });
