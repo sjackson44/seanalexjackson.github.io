@@ -52,7 +52,11 @@
 		color:rgba(236,236,236, 1);
 	}
 
-	#title, #instruct, #title, #nav, #info-container, #projects, #contact {
+	#title, #instruct, #title, #nav, #projects, #contact {
+		position: relative;
+	}
+
+	#info-container, #instruct {
 		position: absolute;
 	}
 
