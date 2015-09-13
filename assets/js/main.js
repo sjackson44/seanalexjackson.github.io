@@ -26,7 +26,7 @@ $(document).ready(function() {
       ret = 1;
     } else if (ret === 1) {
       for(var rem in linkObj) {
-        $('#' + linkObj[rem]).removeClass('visible-plus').addClass('hidden-plus');
+          $('#' + linkObj[rem]).removeClass('visible-plus').addClass('hidden-plus');
       }
       $('#title').fadeIn();
         $('#nav').removeClass('visible').addClass('hidden').fadeOut();
