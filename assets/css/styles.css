@@ -119,7 +119,14 @@ li a{
 }
 
 #resume{
-	bottom:25%;
+	bottom: 19%;
+}
+
+#projects{
+  margin-top: 4%;
+  top: 5%;
+  right: 0%;
+  padding-top: 5%;
 }
 
 /*ABOUT*/
@@ -226,6 +233,13 @@ li a{
   transition: visibility 0s 0.5s, opacity 0.5s linear;
 }
 
+@media (max-width: 1180px){
+	#resume{
+	  top: 5%;
+	  bottom: 20%;
+	}
+}
+
 @media (max-width: 1000px){
 	#about{
 		bottom: 20%;
@@ -246,15 +260,34 @@ li a{
 
 @media (max-width: 905px) {
 	#resume{
-		 top: 10%;
-  		bottom: 10%;
-  		padding-top: 8%;
+	   top: 7%;
+	   bottom: 19%;
+	   padding-top: 4%;
+	  font-size: 0.9em;
 	}
 
 	#github, #linkedin{
 		font-size: 1.2em;
 	}
 }
+
+@media (max-width: 805px){
+	#resume{
+		top: 8%;
+  		bottom: 18%;
+  		padding-top: 5%;
+	}
+}
+
+@media (max-width: 770px){
+	#resume{
+		top: 2%;
+		bottom: 19%;
+		padding-top: 4%;
+		right: 0%;
+	}
+}
+
 @media (max-width: 670px){
 	#about{
 		bottom: 15%;
@@ -262,6 +295,10 @@ li a{
 
 	#contact ul{
 		margin-right: 20%;
+	}
+
+	#resume{
+		font-size:0.8em;
 	}
 
 	#github, #linkedin{
@@ -295,12 +332,16 @@ li a{
 	}
 
 	#resume{
-		bottom: 1%;
-		top: 20%;
+		left: -2%;;
+  		top: 12%;
 	}
 
-	#projects, #contact{
+	#contact{
 		bottom: 35%;
+	}
+
+	#projects{
+		bottom:25%;
 	}
 
 	#contact {
@@ -344,8 +385,8 @@ li a{
 		margin-left: 20%;
 	}
 
-	#contact ul li {
-
+	#resume{
+		font-size: 1em;
 	}
 }
 
