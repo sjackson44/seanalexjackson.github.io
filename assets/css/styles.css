@@ -21,11 +21,10 @@ p,a,li{
 }
 
 #nav{ 
-  margin-left: 30%;
-  margin-right: auto;
   text-align: center;
   bottom: -4%;
-  z-index: 3;
+  right: 6%;
+  z-index: 8;
 }
 
 #nav li{
@@ -33,7 +32,7 @@ p,a,li{
 }
 /*MAIN SCREEN*/
 
-body { 
+body{ 
   background: url(../images/tree-star.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -49,14 +48,14 @@ body {
 }
 
 #instruct{
-	height: 100px;
-	width: 600px;
-	margin:15% 0% 0% 27%;
+	height: 16%;
+  	width: 2%;
 	background-color: rgba(0,0,0,0.7);
 	border-top-right-radius: 3% 16%;
 	border-top-left-radius: 3% 16%;
 	border-bottom-right-radius: 3% 16%;
 	border-bottom-left-radius: 3% 16%;
+	top: 35%;
 }
 
 #instruct p {
@@ -98,9 +97,7 @@ li a{
 }
 
 /*INFO CONTAINER*/
-.info-sec {
-  background-color: rgba(0,0,0,.7);
-  padding: 40px;
+.info-sec{
   border-radius: 20px;
   min-width: 70%;
   margin-right: 10%;
@@ -108,7 +105,12 @@ li a{
   bottom: 35%;
 }
 
-#resume {
+#resume, #projects, #contact, #about{
+  background-color: rgba(0,0,0,.7);
+  padding: 40px;
+}
+
+#resume{
 	bottom:25%;
 }
 
@@ -131,7 +133,7 @@ li a{
 }
 
 
-#blk_mkt, #wake_up {
+#blk_mkt, #wake_up{
 	text-align: center;
 }
 
@@ -141,7 +143,7 @@ li a{
 
 /*CONTACT*/
 
-#contact {
+#contact{
 	font-size: 2em
 }
 
@@ -149,7 +151,7 @@ li a{
 	color:goldenrod;
 }
 
-#contact a {
+#contact a{
 	margin-right: 11%;
 }
 
@@ -201,18 +203,43 @@ li a{
   transition: visibility 0s 0.5s, opacity 0.5s linear;
 }
 
+@media (max-width: 1000px){
+	#about{
+		bottom: 20%;
+	}
+
+	#nav{
+		right: 8%;
+	}
+}
+
+@media (max-width: 905px) {
+	#resume{
+		 top: 10%;
+  		bottom: 10%;
+  		padding-top: 8%;
+	}
+}
+@media (max-width: 670px){
+	#about{
+		bottom: 15%;
+	}
+
+	.button{
+		font-size: 0.7em;
+		padding-right: 4%;
+	}
+}
+
 @media (max-width: 610px){
 	#nav{
-		position: absolute;
     	top: 20px;
-    	margin-left: 5%;
-  		left: 5%;
-  		right: 5%;
+    	right: 4%;
 	}
 
 	.info-sec { 
-		position: absolute;
-		top: 120px;
+		top: 10%;
+  		bottom: 8%;
 	}
 
 	#port-pic{
@@ -224,7 +251,11 @@ li a{
 		top: 12%;
 
 	}
-	
+
+	.button{
+		padding-left: 2%;
+	}
+/*
 	#projects {
 		bottom: 29%;
 	}
@@ -241,8 +272,17 @@ li a{
 		text-align: center;
 		margin-right: 3%;
 	}
+*/
+}
+
+@media(max-width: 520px){
+	#resume p{
+		font-size: 0.9em;
+	}
 }
 
 @media (max-width: 400px){
-
+	.info-sec{
+		margin-left: 5%;
+	}
 }
