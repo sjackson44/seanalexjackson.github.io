@@ -462,9 +462,15 @@ li a{
 		left: 5%;
 	}
 
-	#about{
-		top: 18%;
+	#about, #contact, #projects, #resume{
+		top: 12%;
 		padding-top: 3%;
+	}
+
+	#projects{
+		top: -3%;
+    padding-top: 3%;
+    bottom: 37%;
 	}
 
 	#contact{
