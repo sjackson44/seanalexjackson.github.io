@@ -25,6 +25,7 @@ $(document).ready(function() {
       $('#instruct').removeClass('visible-plus').addClass('hidden-plus');
       ret = 1;
     } else if (ret === 1) {
+      //on click fades out any info boxes fades in name leaves view of gif 
       for(var rem in linkObj) {
           $('#' + linkObj[rem]).removeClass('visible-plus').addClass('hidden-plus');
       }
@@ -39,6 +40,7 @@ $(document).ready(function() {
   $('a').hover(function() {
     id = this.id;
 
+    //on click removes any previous info boxes presents the current selection
     $('#' + id).click(function() {
       for(var rem in linkObj) {
         if (rem !== id) {
