@@ -490,4 +490,8 @@ li a{
 		right: 0%;
     left: 7%;
 	}
+
+	#title{
+		font-size: 1.8em;
+	}
 }
