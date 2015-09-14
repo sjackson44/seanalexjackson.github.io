@@ -10,11 +10,10 @@ $(document).ready(function() {
     con: 'contact'
   };
 
-  $('.screen').hover(function(){
+  $('.screen').hover(function() {
     if(trace === true) {
       $('#instruct').removeClass('hidden-plus').addClass('visible-plus'); 
       trace = false;
-      console.log('overlap')
     }
   });
 
