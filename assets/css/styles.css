@@ -110,7 +110,11 @@ li a{
 
 #about {
 	top: 8%;
-	padding-top: 2%;
+}
+
+#desc{
+	padding: 2% 7% 0% 7%;
+  font-size: 1.03em;
 }
 
 #resume, #projects, #contact, #about{
@@ -120,6 +124,13 @@ li a{
 
 #resume{
 	bottom: 19%;
+	padding-right: 7%;
+ 	padding-left: 7%;
+}
+
+.company{
+	  font-weight: bold;
+    color: goldenrod;
 }
 
 #projects{
@@ -170,7 +181,9 @@ li a{
 #contact ul{
 	position: absolute;
 	bottom: 8%;
-	margin-left: 28%;
+	margin-left: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 #contract ul li {
@@ -286,6 +299,10 @@ li a{
 		padding-top: 4%;
 		right: 0%;
 	}
+
+	#contact ul{
+		margin-left: 15%;
+	}
 }
 
 @media (max-width: 670px){
@@ -325,6 +342,10 @@ li a{
 		margin-left: 30%;
 	}
 
+	#contact ul{
+		margin-left: 10%;
+	}
+
 	#resume, #about, #projects, #contact {
 		bottom: 1%;
 		top: 12%;
@@ -336,18 +357,16 @@ li a{
   		top: 12%;
 	}
 
-	#contact{
-		bottom: 35%;
-	}
-
 	#projects{
 		bottom:25%;
 	}
 
 	#contact {
-		margin-top: 4%;
-  		bottom: 41%;
-  		top: 24%;
+    margin-top: 0%;
+    padding-right: 7%;
+    bottom: 52%;
+    top: 16%;
+    right: 11%;
 	}
 
 	#github{
@@ -361,10 +380,6 @@ li a{
 	#contact a{
 		margin-bottom: 40%;
 		margin-right: 7%;
-	}
-
-	#contact ul {
-		margin-left: 22%;
 	}
 
 	.button{
@@ -393,6 +408,14 @@ li a{
 	#resume{
 		font-size: 1em;
 	}
+
+	#contact{
+		margin-top: 4%;
+    bottom: 50%;
+    top: 16%;
+    padding-right: 13%;
+    right: 11%;
+	}
 }
 
 @media (max-width: 450px){
@@ -413,12 +436,52 @@ li a{
 	}
 
 	#contact{
-		top: 19%;
-		right: 18%;
+		top: 12%;
+    right: 11%;
+    bottom: 54%;
+    padding-right: 18%;
 		  
 	}
 
 	#contact ul{
 		margin-left: 11%;
+	}
+}
+
+@media (max-width: 400px){
+	#projects{
+		margin-top: 30%;
+    top: 5%;
+    right: 0%;
+    padding-top: 5%;
+    left: 0%;
+	}
+
+	#resume{
+		top: 20%;
+		left: 5%;
+	}
+
+	#about{
+		top: 18%;
+		padding-top: 3%;
+	}
+
+	#contact{
+    top: 13%;
+    bottom: 49%;
+    right: 10%;
+    padding-right: 23%;
+    padding-left: 0%;
+  }
+
+	#contact ul{
+		margin-left: 15%;
+    top: 16%;
+	}
+
+	#nav{
+		right: 0%;
+    left: 7%;
 	}
 }
