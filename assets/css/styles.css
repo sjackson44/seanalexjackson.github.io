@@ -160,11 +160,11 @@ li a{
 }
 
 
-#blk_mkt, #wake_up{
+#blk_mkt, #apartment-finder{
 	text-align: center;
 }
 
-#blk_mkt p a:hover, #wake_up p a:hover{
+#blk_mkt p a:hover, #apartment-finder p a:hover{
 	color:goldenrod;
 }
 
