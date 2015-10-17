@@ -115,8 +115,8 @@ li a{
 }
 
 #desc{
-	padding: 2% 7% 0% 7%;
-  font-size: 1.03em;
+	padding: 3% 5% 0% 5%;
+  font-size: 1.16em;
 }
 
 #resume, #projects, #contact, #about{
@@ -417,6 +417,11 @@ li a{
     top: 16%;
     padding-right: 13%;
     right: 11%;
+	}
+	
+	#desc{
+		/*padding: 2% 5% 0% 5%;*/
+  	font-size: 1.03em;
 	}
 }
 
