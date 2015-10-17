@@ -2,6 +2,7 @@
 *{
 	margin:0 auto;
 	overflow: hidden;
+	font-family: Quicksand, Helvetica;
 /*	border: red solid 1px;*/
 }
 
@@ -70,8 +71,8 @@ body{
 
 #title{
 	font-size: 2.3em;
-	margin-left:1%;
-	margin-top: -630px;
+	margin-left:2%;
+	margin-top: -620px;
 }
 
 
@@ -489,7 +490,7 @@ li a{
 
 	#nav{
 		right: 0%;
-    left: 7%;
+    left: 4%;
 	}
 
 	#title{
