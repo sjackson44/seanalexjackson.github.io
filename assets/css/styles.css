@@ -386,6 +386,7 @@ li a{
 
 	.button{
 		padding-left: 2%;
+		padding-right: 2%;
 	}
 }
 
@@ -483,7 +484,7 @@ li a{
 	#contact{
     top: 13%;
     bottom: 49%;
-    right: 10%;
+    right: 6%;
     padding-right: 23%;
     padding-left: 0%;
   }
